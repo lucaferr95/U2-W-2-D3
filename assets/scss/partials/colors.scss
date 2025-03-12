@@ -1,0 +1,37 @@
+header {
+  background-color: #640fc5;
+}
+body {
+  color: #f4f4f4;
+}
+$colors: (
+  blue: #0e6cff,
+  orange: #ff8700,
+  green: #4caf50,
+);
+
+@each $name, $color in $colors {
+  .primary-#{$name} {
+    background-color: $color;
+
+    &:hover {
+      background-color: orange;
+    }
+  }
+
+  .secondary-#{$name} {
+    background-color: $color;
+
+    &:hover {
+      background-color: whitesmoke;
+    }
+  }
+
+  .terciary-#{$name} {
+    background-color: $color;
+
+    &:hover {
+      background-color: red;
+    }
+  }
+}

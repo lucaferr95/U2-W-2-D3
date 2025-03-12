@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid 213;
+  box-shadow: rgb(214, 214, 214);
+}
+
+.imageContainer img {
+  border: 0;
+  box-shadow: -shadow;
+}
+
+imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+imageContainer > * {
+  flex: 1 1 calc(100% / 3);
+  max-width: calc(100% / 3);
+}/*# sourceMappingURL=mixing.css.map */

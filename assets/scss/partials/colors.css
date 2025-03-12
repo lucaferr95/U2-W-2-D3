@@ -1,0 +1,70 @@
+header {
+  background-color: #640fc5;
+}
+
+body {
+  color: #f4f4f4;
+}
+
+.primary-blue {
+  background-color: #0e6cff;
+}
+.primary-blue:hover {
+  background-color: orange;
+}
+
+.secondary-blue {
+  background-color: #0e6cff;
+}
+.secondary-blue:hover {
+  background-color: whitesmoke;
+}
+
+.terciary-blue {
+  background-color: #0e6cff;
+}
+.terciary-blue:hover {
+  background-color: red;
+}
+
+.primary-orange {
+  background-color: #ff8700;
+}
+.primary-orange:hover {
+  background-color: orange;
+}
+
+.secondary-orange {
+  background-color: #ff8700;
+}
+.secondary-orange:hover {
+  background-color: whitesmoke;
+}
+
+.terciary-orange {
+  background-color: #ff8700;
+}
+.terciary-orange:hover {
+  background-color: red;
+}
+
+.primary-green {
+  background-color: #4caf50;
+}
+.primary-green:hover {
+  background-color: orange;
+}
+
+.secondary-green {
+  background-color: #4caf50;
+}
+.secondary-green:hover {
+  background-color: whitesmoke;
+}
+
+.terciary-green {
+  background-color: #4caf50;
+}
+.terciary-green:hover {
+  background-color: red;
+}/*# sourceMappingURL=colors.css.map */
